@@ -17,4 +17,16 @@ public class CashbackHackerTestJU4 {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void shouldCalculateRemainZero() {
+        CashbackHacker service = new CashbackHacker();
+
+        int amount = 1000;
+
+        int actual = service.remain(amount);
+        int expected = 0;
+
+        assertEquals(expected, actual);
+    }
 }
