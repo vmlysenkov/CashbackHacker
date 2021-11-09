@@ -15,5 +15,6 @@ public class CashbackHackerTestNG {
         int expected = 100;
 
         assertEquals(actual, expected);
+
     }
 }
